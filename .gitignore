@@ -1,0 +1,50 @@
+# --- Datasets & Heavy Blobs ---
+data/
+datasets/
+*.csv
+*.json
+*.h5
+*.npy
+*.npz
+
+# --- Model Checkpoints & Weights ---
+models/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.pwf
+*.onnx
+*.pb
+*.weights
+
+# --- Python Environment ---
+venv/
+.venv/
+env/
+bin/
+lib/
+lib64/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Jupyter Notebooks & Visualization ---
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+.virtual_documents/
+.tensorboard/
+runs/
+logs/
+*.log
+
+# --- OS & IDE Configs ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Secrets & Environment Variables ---
+.env
+*.pem
+
